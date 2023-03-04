@@ -30,8 +30,7 @@ app.get("/api/orders", (req, res) => {
 
 app.post("/api/orders", (req, res) => {
 	let { ...newOrder } = req.body;
-
-	res.send("");
+	let updatedOrder = res.send("");
 });
 
 app.listen(3009);
