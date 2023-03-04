@@ -1,0 +1,69 @@
+[
+	{
+		"id": 1,
+		"name": "Margherita",
+		"ingredients": ["tomato sauce", "cheese", "oregano"],
+		"price": 9,
+		"allergens": ["A", "G"]
+	},
+	{
+		"id": 2,
+		"name": "Salami",
+		"ingredients": ["tomato sauce", "cheese", "oregano", "salami"],
+		"price": 10,
+		"allergens": ["A", "G"]
+	},
+	{
+		"id": 3,
+		"name": "Marinara",
+		"ingredients": ["tomato sauce", "oregano", "garlic"],
+		"price": 8,
+		"allergens": ["A"]
+	},
+	{
+		"id": 4,
+		"name": "Funghi",
+		"ingredients": ["tomato sauce", "cheese", "oregano", "mushrooms"],
+		"price": 9,
+		"allergens": ["A", "G"]
+	},
+	{
+		"id": 5,
+		"name": "Frutti di Mare",
+		"ingredients": [
+			"tomato sauce",
+			"cheese",
+			"oregano",
+			"shrimp",
+			"mussel",
+			"tuna",
+			"calamari",
+			"garlic"
+		],
+		"price": 16,
+		"allergens": ["A", "B", "D", "G", "R"]
+	},
+	{
+		"id": 6,
+		"name": "Diavolo",
+		"ingredients": [
+			"tomato sauce",
+			"cheese",
+			"oregano",
+			"salami",
+			"ham",
+			"capers",
+			"anchovies",
+			"hot pepperoni"
+		],
+		"price": 11,
+		"allergens": ["A", "D", "G", "O"]
+	},
+	{
+		"id": 7,
+		"name": "Cardinale",
+		"ingredients": ["tomato sauce", "cheese", "oregano", "ham"],
+		"price": 10,
+		"allergens": ["A", "G"]
+	}
+]
