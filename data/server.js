@@ -24,8 +24,22 @@ app.get("/api/allergens", (req, res) => {
 	res.send(allergensJSON);
 });
 
-app.get("/api/orders", (req, res) => {
-	res.send(ordersJSON);
+app.post("/api/orders", (req, res) => {
+	let { ...newOrder } = req.body;
+	fs.readFile("orders.json", (err, data) => {
+		if (err) throw err;
+
+		let newOrders = [...ordersJSON.orders, newOrder];
+
+		ordersJSON.orders = newOrders;
+
+		fs.writeFile("orders.json", JSON.stringify(ordersJSON, null, 2), (err) => {
+			if (err) throw err;
+			console.log(newOrder);
+			console.log("order successful");
+			res.send("order successful");
+		});
+	});
 });
 
 app.listen(3009);
