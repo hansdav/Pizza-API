@@ -1,58 +1,60 @@
-[
-	{
-		"letter": "A",
-		"name": "Gluten"
-	},
-	{
-		"letter": "B",
-		"name": "Crustaceans"
-	},
-	{
-		"letter": "C",
-		"name": "Egg"
-	},
-	{
-		"letter": "D",
-		"name": "Fish"
-	},
-	{
-		"letter": "E",
-		"name": "Peanut"
-	},
-	{
-		"letter": "F",
-		"name": "Soy"
-	},
-	{
-		"letter": "G",
-		"name": "Lactose"
-	},
-	{
-		"letter": "H",
-		"name": "Nuts"
-	},
-	{
-		"letter": "L",
-		"name": "Celery"
-	},
-	{
-		"letter": "M",
-		"name": "Mustard"
-	},
-	{
-		"letter": "N",
-		"name": "Sesame"
-	},
-	{
-		"letter": "O",
-		"name": "Sulphites"
-	},
-	{
-		"letter": "P",
-		"name": "Lupines"
-	},
-	{
-		"letter": "R",
-		"name": "Molluscs"
-	}
-]
+{
+	"allergens": [
+		{
+			"letter": "A",
+			"name": "Gluten"
+		},
+		{
+			"letter": "B",
+			"name": "Crustaceans"
+		},
+		{
+			"letter": "C",
+			"name": "Egg"
+		},
+		{
+			"letter": "D",
+			"name": "Fish"
+		},
+		{
+			"letter": "E",
+			"name": "Peanut"
+		},
+		{
+			"letter": "F",
+			"name": "Soy"
+		},
+		{
+			"letter": "G",
+			"name": "Lactose"
+		},
+		{
+			"letter": "H",
+			"name": "Nuts"
+		},
+		{
+			"letter": "L",
+			"name": "Celery"
+		},
+		{
+			"letter": "M",
+			"name": "Mustard"
+		},
+		{
+			"letter": "N",
+			"name": "Sesame"
+		},
+		{
+			"letter": "O",
+			"name": "Sulphites"
+		},
+		{
+			"letter": "P",
+			"name": "Lupines"
+		},
+		{
+			"letter": "R",
+			"name": "Molluscs"
+		}
+	]
+}
