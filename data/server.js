@@ -24,6 +24,10 @@ app.get("/api/allergens", (req, res) => {
 	res.send(allergensJSON);
 });
 
+app.get("/api/orders", (req, res) => {
+	res.send(ordersJSON);
+});
+
 app.post("/api/orders", (req, res) => {
 	let { ...newOrder } = req.body;
 	fs.readFile("orders.json", (err, data) => {
