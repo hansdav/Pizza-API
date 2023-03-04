@@ -12,15 +12,16 @@ const pizzas = "./pizzas.json";
 const allergens = "./allergens.json";
 const orders = "./orders.json";
 
-const pizzaData = fs.readFileSync(pizzas);
-const pizzasJSON = JSON.parse(pizzaData);
-const allergenData = fs.readFileSync(allergens);
-const allergensJSON = JSON.parse(allergenData);
-const orderData = fs.readFileSync(orders);
-const ordersJSON = JSON.parse(orderData);
+const pizzasJSON = JSON.parse(fs.readFileSync(pizzas));
+const allergensJSON = JSON.parse(fs.readFileSync(allergens));
+const ordersJSON = JSON.parse(fs.readFileSync(orders));
 
 app.get("/api/pizzas", (req, res) => {
 	res.send(pizzasJSON);
 });
 
-app.listen(3000);
+app.get("/api/allergens", (req, res) => {
+	res.send(allergensJSON);
+});
+
+app.listen(3009);
