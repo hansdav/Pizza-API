@@ -1,1 +1,10 @@
-{ "orders": [] }
+{
+  "orders": [
+    {
+      "id": 1,
+      "pizzas": "macaroni pizza",
+      "date": "today",
+      "customer": "me"
+    }
+  ]
+}
