@@ -28,9 +28,4 @@ app.get("/api/orders", (req, res) => {
 	res.send(ordersJSON);
 });
 
-app.post("/api/orders", (req, res) => {
-	let { ...newOrder } = req.body;
-	let updatedOrder = res.send("");
-});
-
 app.listen(3009);
