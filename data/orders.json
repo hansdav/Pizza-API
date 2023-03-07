@@ -1,16 +1,10 @@
 {
   "orders": [
     {
-      "id": 1,
-      "pizzas": "macaroni pizza",
-      "date": "today",
-      "customer": "me"
-    },
-    {
-      "id": "6666",
-      "pizzas": "some pizzas",
-      "date": "today",
-      "customer": "Me"
+      "id": 10,
+      "pizzas": "salami",
+      "date": "2020-03-02",
+      "customer": "The real slim shady"
     }
   ]
 }
